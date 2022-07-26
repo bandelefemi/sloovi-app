@@ -1,0 +1,26 @@
+.container {
+  padding: 2rem;
+  width: 20rem;
+}
+p {
+  margin: 0;
+}
+
+.tasks {
+  border: 1px solid rgb(221, 214, 214);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks > p {
+  padding: 0.5rem;
+}
+
+.plus {
+  border: none;
+  border-left: 1px solid rgb(221, 214, 214);
+  padding: 0 0.5rem;
+  font-size: 2rem;
+  background-color: transparent;
+}

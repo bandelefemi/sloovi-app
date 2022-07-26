@@ -1,0 +1,66 @@
+.tasks-container {
+  padding: 0.5rem;
+  border: 1px solid rgb(221, 214, 214);
+  border-top: none;
+  background-color: #eff6ff;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.input {
+  padding: 0.5rem 0.25rem;
+  width: 100%;
+  border: none;
+  border: 1px solid #e5e7eb;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 0.5rem 0;
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.action-buttons > button {
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.cancel {
+  background-color: transparent;
+}
+
+.save {
+  background-color: #10b981;
+  color: white;
+}
+
+.date-picker {
+  padding: 0.5rem 0.25rem;
+  width: 90%;
+  border: none;
+  background-color: white;
+  border: none;
+  border: 1px solid #e5e7eb;
+}
+
+.time-input {
+  background-color: white;
+}

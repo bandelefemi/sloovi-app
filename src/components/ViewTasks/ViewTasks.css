@@ -1,0 +1,13 @@
+.view-tasks-container {
+  border: 1px solid rgb(221, 214, 214);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit {
+  border: none;
+  border: 1px solid rgb(221, 214, 214);
+  padding: 0.5rem;
+  background-color: transparent;
+}
